@@ -27,21 +27,26 @@
             <div class="wide-container">
                 <header class="top-area" role="banner">
                     <span class="top-area__left top-phone">
-                        📞 0 216 561 8101
+                        <span class="top-phone__icon">📞</span>0 216 561 8101
                     </span>
-                    <img class="top-area__logo top-logo" src="./logo.png" alt="Fermente Mutfağım Logo" />
+                    <div class="top-area__middle">
+                        <img
+                            class="top-logo"
+                            src="./logo.png"
+                            alt="Fermente Mutfağım Logo" />
+                    </div>
                     <div class="top-area__right top-customer-actions">
-                        <form class="top-customer-actions__search" action="#">
+                        <form class="top-customer-actions__action top-search" action="#">
                             <label>
                                 ARA
-                                <input type="text" class="top-customer-actions__search-input" />
+                                <input type="text" class="top-search__input" />
                             </label>
-                            <button class="top-customer-actions__search-button">🔍</button>
+                            <button class="top-search__button">🔍</button>
                         </form>
-                        <div tabindex="0" id="cart-toggle-button" class="top-customer-actions__cart-button">
+                        <div class="top-customer-actions__action" tabindex="0" id="cart-toggle-button">
                             SEPET <span>🛒</span>
                         </div>
-                        <div class="top-customer-actions__membership-button">
+                        <div class="top-customer-actions__action">
                             ÜYELİK <span>👤</span>
                         </div>
                     </div>
