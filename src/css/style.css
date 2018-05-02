@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font: normal 15px/1.4 helvetica, sans-serif;
 }
@@ -103,9 +107,38 @@ body {
     padding: 0;
 }
 
-.hero {}
+.hero {
+    max-height: 480px;
+    background-color: #FCF8EE;
+    border-top: 1px solid #F9ECC1
+}
 
-.hero-navigation {}
+.hero-navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -1.5em;
+    height: 64px;
+}
+
+.hero-navigation li {
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: .85em;
+    border-right: 1px solid #E7D190;
+}
+
+.hero-navigation li:first-child {
+}
+
+.hero-navigation li:last-child {
+    border-right: none;
+}
+
+.hero-navigation li a {
+    color: #000;
+    text-decoration: none;
+}
 
 .hero-banners {}
 
