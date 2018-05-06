@@ -1,0 +1,17 @@
+.hero-slider {
+    overflow: hidden;
+}
+
+.hero-slider__track {
+    transition: margin-left 1s;
+}
+
+.hero-slider__image {
+    float: left;
+}
+
+.hero-slider__image--active {}
+
+.hero-slider__thumbnail {}
+
+.hero-slider__thumbnail--active {}
