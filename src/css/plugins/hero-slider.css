@@ -1,5 +1,6 @@
 .hero-slider {
-    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
 }
 
 .hero-slider__track {
@@ -12,6 +13,46 @@
 
 .hero-slider__image--active {}
 
-.hero-slider__thumbnail {}
+.hero-slider__thumbnails {
+    position: absolute;
+    bottom: -35px;
+    left: 100px;
+}
 
-.hero-slider__thumbnail--active {}
+.hero-slider__thumbnail-container {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 66px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.hero-slider__thumbnail-container--active {
+    height: 76px;
+}
+
+@keyframes thumbnail-timer {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.hero-slider__thumbnail-container--active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    background: #ffc42f;
+    animation: thumbnail-timer 5.7s .3s linear;
+}
+
+.hero-slider__thumbnail {
+    filter: grayscale(100%);
+    transition: all .3s;
+}
+
+.hero-slider__thumbnail--active {
+    filter: none;
+}
