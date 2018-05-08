@@ -8,6 +8,8 @@
   var THUMBNAIL_CONTAINER_CLS = THUMBNAIL_CLS + '-container'
   var ACTIVE_THUMBNAIL_CONTAINER_CLS = THUMBNAIL_CLS + '-container--active'
   var ACTIVE_THUMBNAIL_CLS = THUMBNAIL_CLS + '--active'
+  var STATIC_OVERLAY_SELECTOR = '[data-hero-slider-static-overlay="true"]'
+  var STATIC_OVERLAY_CLS = BASE_CLS + '__static-overlay'
 
   function createHeroSlider(options) {
     function setDimensions() {
@@ -93,6 +95,14 @@
     // Add base class to container
     o.$el.classList.add(BASE_CLS)
 
+    var $staticOverlay = $track.removeChild(
+      $track.querySelector(STATIC_OVERLAY_SELECTOR)
+    )
+
+    $staticOverlay.classList.add(STATIC_OVERLAY_CLS)
+
+    o.$el.appendChild($staticOverlay)
+
     // Set initial dimensions
     setDimensions()
 
@@ -143,7 +153,7 @@
         ';margin-left: ' + (parseInt(width) * activeIndex * -1) + 'px;'
       )
     }
-    
+
     var activateNext = setInterval(cycle, o.wait)
   }
 
