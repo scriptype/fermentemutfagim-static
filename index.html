@@ -27,8 +27,11 @@
 
             <div class="wide-container">
                 <header class="top-area" role="banner">
-                    <span class="top-area__left top-phone">
-                        <span class="top-phone__icon">📞</span>0 216 561 8101
+                    <span class="top-area__left">
+                        <svg class="icon icon-phone" viewBox="0 0 17 18">
+                            <use xlink:href="#icon-phone" />
+                        </svg>
+                        <span class="icon-label-after top-phone-label">0 216 561 8101</span>
                     </span>
                     <div class="top-area__middle">
                         <img
@@ -38,17 +41,28 @@
                     </div>
                     <div class="top-area__right top-customer-actions">
                         <form class="top-customer-actions__action top-search" action="#">
-                            <label>
+                            <label class="top-search-label icon-label-before">
                                 ARA
                                 <input type="text" class="top-search__input" />
                             </label>
-                            <button class="top-search__button">🔍</button>
+                            <button class="top-search__button">
+                                <svg class="icon icon-search" viewBox="0 0 18 18">
+                                    <use xlink:href="#icon-search" />
+                                </svg>
+                            </button>
                         </form>
                         <div class="top-customer-actions__action" tabindex="0" id="cart-toggle-button">
-                            SEPET <span>🛒</span>
+                            <span class="top-cart-label icon-label-before">SEPET</span>
+                            <svg class="icon icon-cart" viewBox="0 0 17 18">
+                                <use xlink:href="#icon-cart" />
+                            </svg>
                         </div>
                         <div class="top-customer-actions__action">
-                            ÜYELİK <span>👤</span>
+                            <span class="top-membership-label icon-label-before">ÜYELİK</span>
+                            <svg class="icon icon-member" viewBox="0 0 17 18">
+                                <use xlink:href="#icon-member" />
+                            </svg>
+
                         </div>
                     </div>
                 </header>
@@ -80,8 +94,12 @@
                                 data-hero-parallax-img="assets/img/hero1_parallax.jpg"
                                 alt="Fermente Mutfağım banner 1" />
                             <div class="hero-banners__panel-overlay">
-                                <h2>Fermente Mutfağım Yalnızca Organik ve Gerçek Gıdalar Üretir.</h2>
-                                <button type="button" class="hero-banners__cta">ALIŞVERİŞE BAŞLA</button>
+                                <h2 class="hero-banners__panel-heading">
+                                    Fermente Mutfak
+                                    <br />
+                                    Yalnızca Organik ve Gerçek Gıdalar Üretir.
+                                </h2>
+                                <button type="button" class="hero-banners__panel-cta">ALIŞVERİŞE BAŞLA</button>
                             </div>
                         </div>
                         <div data-hero-panel class="hero-banners__panel">
@@ -92,8 +110,12 @@
                                 data-parallax-img="assets/img/hero2_parallax.jpg"
                                 alt="Fermente Mutfağım banner 2" />
                             <div class="hero-banners__panel-overlay">
-                                <h2>Fermente Mutfağım Yalnızca Organik ve Gerçek Gıdalar Üretir.</h2>
-                                <button type="button" class="hero-banners__cta">ALIŞVERİŞE BAŞLA</button>
+                                <h2 class="hero-banners__panel-heading">
+                                    Fermente Mutfak
+                                    <br />
+                                    Yalnızca Organik ve Gerçek Gıdalar Üretir.
+                                </h2>
+                                <button type="button" class="hero-banners__panel-cta">ALIŞVERİŞE BAŞLA</button>
                             </div>
                         </div>
                         <div data-hero-panel class="hero-banners__panel">
@@ -104,8 +126,12 @@
                                 data-parallax-img="assets/img/hero3_parallax.jpg"
                                 alt="Fermente Mutfağım banner 3" />
                             <div class="hero-banners__panel-overlay">
-                                <h2>Fermente Mutfağım Yalnızca Organik ve Gerçek Gıdalar Üretir.</h2>
-                                <button type="button" class="hero-banners__cta">ALIŞVERİŞE BAŞLA</button>
+                                <h2 class="hero-banners__panel-heading">
+                                    Fermente Mutfak
+                                    <br />
+                                    Yalnızca Organik ve Gerçek Gıdalar Üretir.
+                                </h2>
+                                <button type="button" class="hero-banners__panel-cta">ALIŞVERİŞE BAŞLA</button>
                             </div>
                         </div>
                     </div>
@@ -124,6 +150,29 @@
                 lorem
             </div>
 
+        </div>
+
+        <div style="display: none;">
+
+            <svg id="icon-search" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                <path fill="#757575" fill-rule="nonzero" d="M16.982 17.246l-5.349-5.836a6.703 6.703 0 0 0 1.868-4.66 6.703 6.703 0 0 0-1.977-4.773A6.709 6.709 0 0 0 6.75 0a6.703 6.703 0 0 0-4.773 1.977A6.709 6.709 0 0 0 .001 6.75c0 1.803.702 3.498 1.977 4.773A6.709 6.709 0 0 0 6.751 13.5a6.697 6.697 0 0 0 4.22-1.48l5.348 5.834a.447.447 0 0 0 .636.028.45.45 0 0 0 .028-.635v-.001zM.9 6.75A5.857 5.857 0 0 1 6.75.9a5.857 5.857 0 0 1 5.85 5.85 5.857 5.857 0 0 1-5.85 5.85A5.857 5.857 0 0 1 .9 6.75z"/>
+            </svg>
+
+            <svg id="icon-cart" xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18">
+                <g fill="#757575" fill-rule="nonzero">
+                <path d="M7 18c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2zm0-3c-.551 0-1 .449-1 1 0 .551.449 1 1 1 .551 0 1-.449 1-1 0-.551-.449-1-1-1zM14 18c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2zm0-3c-.551 0-1 .449-1 1 0 .551.449 1 1 1 .551 0 1-.449 1-1 0-.551-.449-1-1-1zM16.539 2.467A1.351 1.351 0 0 0 15.5 2H3.257l-.099-.596A1.718 1.718 0 0 0 1.5 0h-1a.5.5 0 0 0 0 1h1c.307 0 .621.266.671.569l1.671 10.027A1.718 1.718 0 0 0 5.5 13h10a.5.5 0 0 0 0-1h-10a.724.724 0 0 1-.671-.569l-.247-1.48 9.965-.867c.775-.067 1.483-.721 1.611-1.489l.671-4.027a1.354 1.354 0 0 0-.289-1.102l-.001.001zm-.697.937l-.671 4.027c-.053.316-.391.629-.711.657l-10.043.873-.994-5.962h12.076a.35.35 0 0 1 .276.113.355.355 0 0 1 .066.291l.001.001z"/>
+                </g>
+            </svg>
+
+            <svg id="icon-phone" xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18">
+                <path fill="#757575" fill-rule="nonzero" d="M13.6 17.143c-1.505 0-3.107-.43-4.76-1.279-1.524-.783-3.03-1.903-4.354-3.24-1.324-1.337-2.433-2.857-3.208-4.395C.438 6.561.01 4.947.01 3.43c0-.984.91-1.935 1.3-2.298C1.873.61 2.757 0 3.399 0c.32 0 .694.21 1.18.663.36.338.768.796 1.175 1.324.245.319 1.47 1.946 1.47 2.727 0 .64-.718 1.086-1.478 1.557a8.45 8.45 0 0 0-.817.548c-.234.189-.276.29-.283.312.807 2.028 3.273 4.514 5.283 5.327.018-.006.117-.046.308-.286a8.64 8.64 0 0 0 .544-.823c.467-.767.908-1.491 1.543-1.491.774 0 2.389 1.235 2.705 1.483.523.41.977.821 1.312 1.185.449.489.658.867.658 1.19 0 .647-.604 1.541-1.121 2.11-.36.396-1.303 1.318-2.279 1.318l.001-.001zM3.395.857c-.228.004-.84.286-1.507.904C1.255 2.35.862 2.988.862 3.43c0 5.767 7.024 12.857 12.738 12.857.436 0 1.07-.399 1.652-1.04.615-.675.894-1.296.898-1.527-.027-.162-.474-.796-1.697-1.746-1.052-.816-1.904-1.254-2.124-1.259-.015.005-.11.041-.303.288-.168.215-.347.51-.521.794-.476.78-.926 1.519-1.58 1.519a.818.818 0 0 1-.308-.061c-2.231-.9-4.87-3.56-5.762-5.81-.107-.27-.124-.694.403-1.176.28-.256.668-.496 1.043-.73.283-.174.575-.355.788-.525.244-.194.28-.29.285-.306-.006-.22-.44-1.08-1.248-2.14C4.183 1.332 3.555.882 3.393.854v.002z"/>
+            </svg>
+
+            <svg id="icon-member" xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18">
+                <g fill="#757575" fill-rule="nonzero">
+                <path d="M8.5 9.9c-2.714 0-4.921-2.22-4.921-4.95S5.786 0 8.5 0c2.714 0 4.921 2.22 4.921 4.95S11.214 9.9 8.5 9.9zm0-9C6.28.9 4.474 2.717 4.474 4.95 4.474 7.183 6.28 9 8.5 9c2.22 0 4.026-1.817 4.026-4.05C12.526 2.717 10.72.9 8.5.9zM15.658 18H1.342C.602 18 0 17.394 0 16.65c0-.061.013-1.516 1.096-2.97.63-.846 1.494-1.518 2.567-1.997C4.973 11.097 6.6 10.8 8.5 10.8s3.527.297 4.837.883c1.073.48 1.936 1.151 2.567 1.997C16.987 15.134 17 16.589 17 16.65c0 .744-.602 1.35-1.342 1.35zM8.5 11.7c-3.12 0-5.422.858-6.658 2.48-.926 1.216-.946 2.46-.947 2.472 0 .246.2.448.447.448h14.316a.449.449 0 0 0 .447-.45c0-.01-.02-1.254-.947-2.47-1.237-1.622-3.539-2.48-6.658-2.48z"/>
+                </g>
+            </svg>
         </div>
 
         <script type="text/javascript" src="js/global/$f.js"></script>
