@@ -12,6 +12,22 @@
     float: left;
 }
 
+.hero-slider__panel-overlay {}
+
+@keyframes overlay-delay {
+    to { transform: translateX(0); }
+}
+
+.hero-slider__panel-overlay--active {
+    transform: translateX(10%);
+    animation: overlay-delay 1.5s forwards;
+}
+
+.hero-slider__panel-overlay--active-reverse {
+    transform: translateX(-10%);
+    animation: overlay-delay 1.5s forwards;
+}
+
 .hero-slider__image { }
 
 .hero-slider__image--active {}
@@ -35,6 +51,7 @@
 
 .hero-slider__thumbnail-container--active {
     height: 76px;
+    pointer-events: none;
 }
 
 @keyframes thumbnail-timer {
