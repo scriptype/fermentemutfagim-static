@@ -1,6 +1,7 @@
 ;(function(root) {
   var BASE_CLS = 'hero-slider'
   var TRACK_CLS = 'hero-slider__track'
+  var PANEL_CLS = BASE_CLS + '__panel'
   var IMG_CLS = BASE_CLS + '__image'
   var ACTIVE_IMG_CLS = IMG_CLS + '--active'
   var THUMBNAILS_CONTAINER_CLS = 'hero-slider__thumbnails'
@@ -53,8 +54,13 @@
     // Put $track inside $el. We effectively wrap everything with $track
     o.$el.appendChild($track)
 
+    var $panels = [].slice.call(o.$el.querySelectorAll('[data-hero-panel]'))
+    $panels.forEach(function($panel) {
+      $panel.classList.add(PANEL_CLS)
+    })
+
     // Get images directly inside the container
-    var $images = [].slice.call(o.$el.querySelectorAll('img'))
+    var $images = [].slice.call(o.$el.querySelectorAll('[data-hero-image]'))
 
     // Add image class to each image inside the container
     $images.forEach(function($image) {
@@ -66,7 +72,7 @@
 
     // Add thumbnail class to each thumbnail
     var $thumbnails = $images.map(function($image, index) {
-      var src = $image.dataset.thumbnail
+      var src = $image.dataset.heroThumbnail
       var img = document.createElement('img')
       img.src = src
       img.classList.add(THUMBNAIL_CLS)
@@ -94,14 +100,6 @@
 
     // Add base class to container
     o.$el.classList.add(BASE_CLS)
-
-    var $staticOverlay = $track.removeChild(
-      $track.querySelector(STATIC_OVERLAY_SELECTOR)
-    )
-
-    $staticOverlay.classList.add(STATIC_OVERLAY_CLS)
-
-    o.$el.appendChild($staticOverlay)
 
     // Set initial dimensions
     setDimensions()

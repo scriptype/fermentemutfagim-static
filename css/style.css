@@ -269,6 +269,16 @@ body {
 
 .hero-banners {}
 
-.hero-banners__static-overlay {}
+.hero-banners__panel {
+    position: relative;
+}
+
+.hero-banners__panel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .hero-banners__cta {}
