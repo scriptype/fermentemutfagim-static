@@ -34,7 +34,7 @@
 
 .hero-slider__thumbnails {
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     left: 100px;
     z-index: 1;
 }

@@ -306,7 +306,9 @@ body {
     text-decoration: none;
 }
 
-.hero-banners {}
+.hero-banners {
+    height: 650px;
+}
 
 .hero-banners__panel {
     position: relative;
@@ -319,6 +321,29 @@ body {
     width: 100%;
     height: 100%;
     padding: 120px 100px;
+}
+
+@keyframes overlay-extra {
+    to { transform: translateX(0); }
+}
+
+.hero-banners__panel-overlay-extra {
+    position: absolute;
+    right: -100px;
+    bottom: -35px;
+}
+
+.hero-slider__panel-overlay--active .hero-banners__panel-overlay-extra {
+    transform: translateX(30%);
+}
+
+.hero-slider__panel-overlay--active-reverse .hero-banners__panel-overlay-extra {
+    transform: translateX(-30%);
+}
+
+.hero-slider__panel-overlay--active .hero-banners__panel-overlay-extra,
+.hero-slider__panel-overlay--active-reverse .hero-banners__panel-overlay-extra {
+    animation: overlay-extra 2s forwards;
 }
 
 .hero-banners__panel-heading {
