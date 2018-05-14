@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 900;
+    src: url('/assets/fonts/Gilroy-Heavy.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 800;
+    src: url('/assets/fonts/Gilroy-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 700;
+    src: url('/assets/fonts/Gilroy-Extrabold.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 600;
+    src: url('/assets/fonts/Gilroy-Bold.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 500;
+    src: url('/assets/fonts/Gilroy-Semibold.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 400;
+    src: url('/assets/fonts/Gilroy-Medium.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 300;
+    src: url('/assets/fonts/Gilroy-Regular.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 200;
+    src: url('/assets/fonts/Gilroy-Light.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 100;
+    src: url('/assets/fonts/Gilroy-Thin.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 900;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-HeavyItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 800;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-BlackItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 700;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-ExtraboldItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 600;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-BoldItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 500;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-SemiboldItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 400;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-MediumItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 300;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-RegularItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 200;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-LightItalic.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Gilroy',
+    font-weight: 100;
+    font-style: italic;
+    src: url('/assets/fonts/Gilroy-ThinItalic.otf') format('opentype')
+}

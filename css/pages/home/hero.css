@@ -1,0 +1,90 @@
+.hero {
+    max-height: 480px;
+    background-color: #FCF8EE;
+    border-top: 1px solid #F9ECC1
+}
+
+.hero-navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -1.5em;
+    height: 64px;
+}
+
+.hero-navigation li {
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-right: 1px solid #E7D190;
+}
+
+.hero-navigation li:first-child {}
+
+.hero-navigation li:last-child {
+    border-right: none;
+}
+
+.hero-navigation li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.hero-banners {
+    height: 650px;
+}
+
+.hero-banners__panel {
+    position: relative;
+}
+
+.hero-banners__panel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 120px 100px;
+}
+
+@keyframes overlay-extra {
+    to { transform: translateX(0); }
+}
+
+.hero-banners__panel-overlay-extra {
+    position: absolute;
+    right: -100px;
+    bottom: -35px;
+}
+
+.hero-slider__panel-overlay--active
+.hero-banners__panel-overlay-extra {
+    transform: translateX(30%);
+}
+
+.hero-slider__panel-overlay--active-reverse
+.hero-banners__panel-overlay-extra {
+    transform: translateX(-30%);
+}
+
+.hero-slider__panel-overlay--active
+.hero-banners__panel-overlay-extra,
+.hero-slider__panel-overlay--active-reverse
+.hero-banners__panel-overlay-extra {
+    animation: overlay-extra 2s forwards;
+}
+
+.hero-banners__panel-heading {
+    max-width: 75%;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    line-height: 1.33;
+    color: #fff;
+}
+
+.hero-banners__panel-cta {
+    margin-top: 25px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}

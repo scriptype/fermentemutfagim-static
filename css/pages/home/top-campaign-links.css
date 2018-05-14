@@ -1,0 +1,26 @@
+.top-campaign-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #363636;
+}
+
+.top-campaign-links__item {
+    width: calc(1440px / 3);
+    height: 30px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.top-campaign-links__item:nth-child(2) {
+    background: #4A4A4A;
+}
+
+.top-campaign-links__item:hover {
+    background: #5A5A5A;
+}

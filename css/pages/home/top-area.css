@@ -1,0 +1,69 @@
+.top-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+}
+
+.top-area__left,
+.top-area__middle,
+.top-area__right {
+    width: 33%;
+}
+
+.top-area__left {
+    line-height: 18px;
+}
+
+.top-area__left .icon-phone,
+.top-area__right .icon-search,
+.top-area__right .icon-cart,
+.top-area__right .icon-member {
+    display: inline-block;
+    float: left;
+}
+
+.top-phone-label,
+.top-search-label,
+.top-cart-label,
+.top-membership-label {
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.top-area__middle {
+    text-align: center;
+}
+
+.top-logo {
+    vertical-align: middle;
+}
+
+.top-area__right {}
+
+.top-customer-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-customer-actions__action {
+    height: 16px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-right: 1px solid #D8D8D8;
+}
+
+.top-customer-actions__action:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+.top-search__input {
+    display: none;
+}
+
+.top-search__button {}

@@ -1,0 +1,29 @@
+.icon { }
+
+.icon-phone {
+    width: 17px;
+    height: 18px;
+}
+
+.icon-search {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-cart {
+    width: 17px;
+    height: 18px;
+}
+
+.icon-member {
+    width: 17px;
+    height: 18px;
+}
+
+.icon-label-after {
+    margin-left: 10px;
+}
+
+.icon-label-before {
+    margin-right: 10px;
+}

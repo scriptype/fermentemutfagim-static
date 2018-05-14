@@ -1,0 +1,28 @@
+.btn {
+    border: none;
+    background: none;
+    appearance: none;
+    -webkit-appearance: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn--lg {
+    padding: 20px 70px;
+}
+
+.btn--sm {
+    padding: 20px 50px;
+}
+
+.btn--primary {
+    background: #fff;
+    color: #000;
+}
+
+.btn--secondary {
+    background: #ffc42f;
+    color: #000;
+}
