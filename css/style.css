@@ -333,16 +333,20 @@ body {
     bottom: -35px;
 }
 
-.hero-slider__panel-overlay--active .hero-banners__panel-overlay-extra {
+.hero-slider__panel-overlay--active
+.hero-banners__panel-overlay-extra {
     transform: translateX(30%);
 }
 
-.hero-slider__panel-overlay--active-reverse .hero-banners__panel-overlay-extra {
+.hero-slider__panel-overlay--active-reverse
+.hero-banners__panel-overlay-extra {
     transform: translateX(-30%);
 }
 
-.hero-slider__panel-overlay--active .hero-banners__panel-overlay-extra,
-.hero-slider__panel-overlay--active-reverse .hero-banners__panel-overlay-extra {
+.hero-slider__panel-overlay--active
+.hero-banners__panel-overlay-extra,
+.hero-slider__panel-overlay--active-reverse
+.hero-banners__panel-overlay-extra {
     animation: overlay-extra 2s forwards;
 }
 
