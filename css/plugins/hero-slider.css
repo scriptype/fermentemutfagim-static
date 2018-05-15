@@ -1,5 +1,5 @@
 .hero-slider {
-    height: 635px;
+    height: 650px;
     overflow-x: hidden;
     position: relative;
 }
@@ -34,7 +34,7 @@
 
 .hero-slider__thumbnails {
     position: absolute;
-    bottom: 15px;
+    bottom: 30px;
     left: 100px;
     z-index: 1;
 }
@@ -52,6 +52,8 @@
 .hero-slider__thumbnail-container--active {
     height: 76px;
     pointer-events: none;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .25);
+    transition: all .3s;
 }
 
 @keyframes thumbnail-timer {
