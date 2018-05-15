@@ -1,5 +1,6 @@
 .hero {
     max-height: 480px;
+    margin-bottom: 240px;
     background-color: #FCF8EE;
     border-top: 1px solid #F9ECC1
 }

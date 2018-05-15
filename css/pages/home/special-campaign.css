@@ -1,0 +1,22 @@
+.special-campaign {
+    padding: 50px 0;
+}
+
+.special-campaign-background {
+    position: relative;
+    height: 300px;
+    background: url('/assets/img/campaign.png');
+}
+
+.special-campaign-overlay {
+    width: 515px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 48px 80px 42px 0;
+}
+
+.special-campaign-header {
+    font: normal 800 50px/1.2 Gilroy, sans-serif;
+}
