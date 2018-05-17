@@ -3,6 +3,7 @@
 
 @import "./components/btn.css";
 @import "./components/section-header.css";
+@import "./components/product-box.css";
 
 @import "./pages/home/top-campaign-links.css";
 @import "./pages/home/top-area.css";
@@ -26,7 +27,11 @@ body {
     margin: 0 auto;
 }
 
-.content-container {
-    width: 1140px;
-    margin: 0 auto;
+.content-container {}
+
+@media (min-width: 1140px) {
+    .content-container {
+        width: 1140px;
+        margin: 0 auto;
+    }
 }

@@ -1,0 +1,74 @@
+.product-box {
+    background: #fff;
+}
+
+.product-box__link {
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.product-box__cover-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.product-box__image-and-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-box__image {
+    align-self: flex-end;
+    margin: 40px;
+    height: 160px;
+}
+
+.product-box__title {
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+}
+
+.product-box__price {
+    margin: 5px 10px 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+}
+
+.product-box__price::before,
+.product-box__old-price::before {
+    content: "₺ ";
+    font-weight: 100;
+}
+
+.product-box__old-price {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    color: #9b9b9b;
+    text-decoration: line-through;
+}
+
+.product-box__add-to-cart-button {
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 0;
+    border-top: 1px solid #f4f4f4;
+    color: #ffc42f;
+}
+
+.product-box__add-to-cart-button:hover {
+    background: #ffc42f;
+    border-top: 1px solid transparent;
+    color: #000;
+}
