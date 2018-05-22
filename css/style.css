@@ -1,16 +1,22 @@
 @import "./fonts.css";
 @import "./icons.css";
 
-@import "./components/btn.css";
-@import "./components/section-header.css";
-@import "./components/product-box.css";
+@import "./atoms/btn.css";
+@import "./atoms/input.css";
+@import "./atoms/section-header.css";
+@import "./atoms/legal-notice.css";
 
-@import "./pages/home/top-campaign-links.css";
-@import "./pages/home/top-area.css";
-@import "./pages/home/hero.css";
-@import "./pages/home/special-bundles.css";
-@import "./pages/home/discount-products.css";
-@import "./pages/home/special-campaign.css";
+@import "./molecules/product-box.css";
+@import "./molecules/mini-bulletin-form.css";
+@import "./molecules/top-campaign-links.css";
+@import "./molecules/footer-nav-section.css";
+
+@import "./organisms/discount-products.css";
+@import "./organisms/footer.css";
+@import "./organisms/hero.css";
+@import "./organisms/special-bundles.css";
+@import "./organisms/special-campaign.css";
+@import "./organisms/top-area.css";
 
 * {
     box-sizing: border-box;

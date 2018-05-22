@@ -20,6 +20,26 @@
     height: 18px;
 }
 
+.icon-facebook {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-instagram {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-twitter {
+    width: 22px;
+    height: 18px;
+}
+
+.icon-youtube {
+    width: 22px;
+    height: 16px;
+}
+
 .icon-label-after {
     margin-left: 10px;
 }

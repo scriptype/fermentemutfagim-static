@@ -1,0 +1,16 @@
+.mini-bulletin-form {
+    display: flex;
+}
+
+.mini-bulletin-form__input {
+    height: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+.mini-bulletin-form__button {
+    height: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

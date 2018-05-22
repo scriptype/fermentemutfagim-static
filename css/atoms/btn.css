@@ -10,11 +10,13 @@
 }
 
 .btn--lg {
-    padding: 20px 70px;
+    height: 60px;
+    padding: 0 50px;
 }
 
 .btn--sm {
-    padding: 20px 50px;
+    height: 50px;
+    padding: 0 50px;
 }
 
 .btn--primary {

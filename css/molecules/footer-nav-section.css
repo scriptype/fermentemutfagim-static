@@ -1,0 +1,24 @@
+.footer-nav-section {}
+
+.footer-nav-section__header {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-nav-section__list {}
+
+.footer-nav-section__list li {}
+
+.footer-nav-section__list li a {
+    font-size: 14px;
+    line-height: 2;
+    text-decoration: none;
+    color: #757575;
+}
+
+.footer-nav-section__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}

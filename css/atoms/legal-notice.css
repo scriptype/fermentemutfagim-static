@@ -1,0 +1,9 @@
+.legal-notice {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    background: #363636;
+    color: #fff;
+}
