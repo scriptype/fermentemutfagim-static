@@ -40,6 +40,11 @@
     height: 16px;
 }
 
+.icon-right-caret {
+    width: 6px;
+    height: 10px;
+}
+
 .icon-label-after {
     margin-left: 10px;
 }
