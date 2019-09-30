@@ -5,7 +5,7 @@
 .special-campaign-background {
     position: relative;
     height: 300px;
-    background: url('/assets/img/campaign.png');
+    background: url('../../assets/img/campaign.png');
 }
 
 .special-campaign-overlay {
